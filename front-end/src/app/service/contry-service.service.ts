@@ -22,7 +22,7 @@ export class ContryServiceService {
     return this.http.get(`${this.global.baseUrl+'country/air_parcel/'}`);
   }
 
-  getSeaParcelCountry(): Observable<any>{
+  getCountry()_: Observable<any>{
     return this.http.get(`${this.global.baseUrl+'country/sea_parcel/'}`);
   }
 }
